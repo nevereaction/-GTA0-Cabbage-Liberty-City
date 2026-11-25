@@ -1,0 +1,21 @@
+{
+  "name": "cabbage-liberty-city",
+  "version": "1.0.0",
+  "description": "卷心菜自由城 Formal Edition 1.00 — 开放世界 3D 城市探索、鲸鱼娘哲思论道与神临体验（卷心菜精心制作）",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "pack": "node tools/pack_assets.mjs --in assets --out assets"
+  },
+  "keywords": [
+    "threejs",
+    "open-world",
+    "webgl",
+    "game",
+    "cabbage-liberty-city",
+    "卷心菜自由城"
+  ],
+  "author": "卷心菜 (Cabbage)",
+  "license": "MIT"
+}
